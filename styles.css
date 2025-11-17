@@ -1,0 +1,1779 @@
+/* 
+
+Theme Name: listomder-extension
+my-theme Version: 1.0.0 
+Template:  listdomer
+
+*/ 
+
+body {
+    background-color: lightblue !important;
+   
+        background-image: url('https://findcouplestherapistnearme.com/wp-content/uploads/2025/09/LightBlueBackgroundGradient-scaled.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+  background-attachment: fixed;
+
+}
+
+#page, #primary{
+    background-image: url('https://findcouplestherapistnearme.com/wp-content/uploads/2025/09/LightBlueBackgroundGradient-scaled.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+  background-attachment: fixed;
+}
+
+
+body{
+    height: 100vh !important;
+  width: 100vw !important;
+  
+}
+
+#ListSearchBox{
+    border-radius:20px !important;
+}
+
+#page{
+    height: 100vh;
+}
+
+.site-header.site-header-type1, .site-header.site-header-type3{
+
+    height: 85px !important;
+}
+
+#masthead{
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:3px !important;
+    padding-bottom:0px !important;
+}
+
+#UserLoginBtn, #UserLogoutBtn, .ThemeBtnStyles{
+    font-family: Proxima Nova, Open Sans, Helvetica Neue, Arial, sans-serif !important;
+      font-weight: bold !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    border: none !important;
+    color: white !important;
+    font-size: 15px !important;
+    background-image: linear-gradient(90deg, #33C6FF 0%, #306BE6 100%);
+}
+
+
+#SignUpAndGetListBtn{
+    font-family: Proxima Nova, Open Sans, Helvetica Neue, Arial, sans-serif !important;
+    font-weight: bold !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    border: none !important;
+    color: white !important;
+    font-size: 15px !important;
+    background-image: linear-gradient(90deg, #33C6FF 0%, #306BE6 100%);
+    width:200px !important;
+}
+
+#UserAddListBtn{
+    width:150px !important;
+}
+
+#listdomer-responsive-sidebar-menu{
+     background-image: linear-gradient(90deg, #33C6FF 0%, #306BE6 100%);
+    display: none !important;
+    border-radius: 5px !important
+}
+
+#listdomer-responsive-sidebar-menu span{
+     background-image: linear-gradient(90deg, #33C6FF 0%, #306BE6 100%);
+     border: none !important;
+     color: white !important;
+     border-radius: 5px !important
+
+}
+
+#listdomer-responsive-sidebar-menu span:hover{
+    background-image: linear-gradient(#096BAD, #065E8E) !important;
+    cursor: pointer;
+   
+}
+
+.menu-main-menu-container{
+    display: none !important;
+}
+
+@media only screen and (max-width: 666px) {
+    
+    #listdomer-responsive-sidebar-menu{
+    display: block !important;
+   }
+
+   #UserLoginBtn{
+  margin-top:0px !important;
+
+}
+ #UserLogoutBtn{
+  margin-top: 0px !important;
+}
+   
+   .menu-main-menu-container{
+       padding-top: 25px !important;
+       text-align: center !important;
+    display: block !important;
+}
+   
+   #SignUpAndGetListBtn, #UserAddListBtn{
+       display: none !important;
+   }
+   
+   #TherapistTitleAboveSignUp{
+       display: none !important;
+   }
+
+   #MenuBtn, #UserProfileBtn{
+   display: none;    
+}
+
+}
+
+   #MobAddListLink{
+    display: none !important;
+}
+
+.mobNavLink{
+    display: block !important;
+    color: white !important;
+}
+
+.mobNavLink:hover {
+    color: turquoise !important;
+}
+
+
+#UserLoginBtn:hover, #UserLogoutBtn:hover{
+   background-image: linear-gradient(#096BAD, #065E8E) !important;
+    cursor: pointer;
+  
+}
+
+.ThemeBtnStyles:hover{
+    background-image: linear-gradient(#096BAD, #065E8E) !important;
+    cursor: pointer;
+   
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #masthead{
+    padding-left:5%;
+    padding-right:5%;
+}
+    .SnippetSearchProfPictureBox{
+        width:200px !important;
+        height: 200px !important;
+    }
+
+    .EntrySnippetLayoutBox{
+
+    grid-template-columns: 100% !important;
+}
+
+.EntrySnippetDescriptionOverBox{
+    border:none;
+
+}
+}
+
+@media only screen and (max-width: 600px) {
+    #masthead{
+    padding-left:10px;
+    padding-right:10px;
+   }
+}
+
+.select2-search{
+    display: none;
+}
+
+
+.elementor-1094{
+    padding: 0px !important;
+    margin:0px !important;
+}
+
+/* Search Box Styles */
+
+
+
+input, select {
+    background-color: none;
+}
+
+input:focus{
+    outline: none !important;
+}
+
+
+    .select2-selection__clear{
+        display: none !important;
+    }
+    
+    
+    .select2-selection__arrow{
+        position: relative !important;
+        top: -7.5px !important;
+      
+    }
+
+/* Search Box Styles */
+
+  .elementor-1094 .elementor-element.elementor-element-0ccb5c4{
+      max-width:700px !important;
+  }
+
+
+@media only screen and (max-width: 578.99px) {
+    
+.elementor-1094 .elementor-element.elementor-element-0ccb5c4  {
+              top: 20px !important;
+              left:0px !important;
+       }
+       
+       .elementor-1094 .elementor-element.elementor-element-0ccb5c4 {
+      
+        width:350px !important;
+        transition: width 1s !important;
+        
+ 
+    }
+    
+
+}
+
+#menu-item-2090 > a, #menu-item-2459 > a {
+    color: white !important;
+    font-size: 20px;
+    font-family: "Proxima Nova Bold", Arial, sans-serif;
+}
+
+
+.site-description{
+     font-family: "Proxima Nova Bold", Arial, sans-serif;
+     font-size: 25px;
+     display: none !important;
+}
+
+.site-header, #masthead{
+background: #7bcedb;
+background: linear-gradient(90deg,rgba(123, 206, 219, 1) 0%, rgba(93, 172, 186, 1) 33%, rgba(154, 227, 223, 1) 69%, rgba(121, 237, 237, 1) 100%);
+border-bottom: 1px olivedrab solid !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+#site-navigation{
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 666.99px) {
+ #site-navigation{
+   background: #7bcedb;
+background: linear-gradient(90deg,rgba(123, 206, 219, 1) 0%, rgba(93, 172, 186, 1) 33%, rgba(154, 227, 223, 1) 69%, rgba(121, 237, 237, 1) 100%); background-color: transparent;
+
+}
+
+.SearchFiltersTop4BtnBox{
+    display: block !important;
+}
+
+    .SearchFiltersTop4BtnBox p{
+
+        margin-bottom:10px !important;
+    }
+}
+
+.site-header .site-branding{
+    background: none !important;
+}
+
+
+/* Start Nav Dropwdown Styles  */
+
+
+.MTop15{
+    margin-top:15px;
+}
+
+.MainDropContentLinkGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.MRight15{
+    margin-right: 15px;
+}
+
+.roundCorn5{
+    border-radius: 5px;
+}
+
+.boxAnimate {
+ transform: translateX(0); 
+}
+
+@keyframes NavDropAnime {
+    
+  from {
+      opacity: 0;
+      background-color: white;
+      border: 1px yellow solid;
+  }
+  to {
+      background-color: beige;
+      opacity: 1;
+      border: 1px black solid;
+  }
+  
+}
+
+/* End Nav Dropdown Styles */
+
+/* Footer Styles */
+
+  #block-11{
+      width: 500px !important;
+  }
+  
+
+ .site-footer-2{
+     width: 300px !important;
+     margin-right:85px !important;
+     margin-left:350px;
+}
+
+.FootColum1Prop{
+    color: white !important;
+    margin-bottom:5px !important;
+    font-family: Proxima Nova, Open Sans, Helvetica Neue, Arial, sans-serif !important;
+    font-weight: normal !important;
+    font-size: 25px !important;
+} 
+
+@media screen and (min-width: 767.6px) and (max-width: 1200px) {
+    .site-footer-2 {
+        margin-left: 200px !important;
+   }
+}
+
+
+@media only screen and (max-width: 767.5px) {
+   
+   
+    .site-footer-2 {
+        margin-left: 10px !important;
+        margin-top:25px !important;
+   }
+   
+   footer .container {
+       padding-left: 5% !important;
+   }
+   
+   .FootColum1Prop{
+       font-size: 20px !important;
+   }
+   
+    #block-11{
+      width: 100% !important;
+  }
+   
+ 
+}
+
+
+.site-footer-2 a:hover {
+    color: turquoise !important;
+   }
+
+.site-footer-4{
+  margin-left:15px !important;
+}
+
+.site-footer a{
+ font-size: 20px !important;
+}
+
+#site-subfooter-navigation{
+ display: none !important;
+}
+
+    .site-footer .site-main-footer> div.row > div{
+        margin-bottom: 0px !important;
+    }
+
+
+
+@media only screen and (max-width:765px) {
+      .site-footer-4, #GetHelpFootP{
+        margin-left: 0px !important;
+    }
+}
+
+.site-branding {
+    background:none !important;
+}
+
+#primary-menu{
+  display: none !important;
+
+}
+
+.site-description{
+  display: none !important;
+}
+
+.site-footer {
+    background-color: #3ba8ad !important;
+}
+
+
+.foot-above{
+    
+   width: 45% !important;
+   margin-left:auto !important;
+   margin-right:auto !important;
+}
+
+#FootAboveContainer{
+    padding-left:30% !important;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  
+}
+
+#SocialLinkContainer{
+    margin-top:5px;
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px;
+    column-gap: 2px;
+}
+
+#FootAboveBox{
+     display: grid;
+    grid-template-columns: 250px 300px;
+    column-gap: 10px;
+}
+
+.listdomer-contact-widget-social {
+    display: none !important;
+}
+
+#SocialLinkContainer i{
+    color: white !important;
+    background-color: #4CC2F0 !important;
+    padding:5px;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+        #FootAboveContainer{
+        padding-left:10% !important;
+      
+    }
+}
+
+@media only screen and (max-width: 500px) {
+        #FootAboveContainer{
+        padding-left:5% !important;
+      
+    }
+}
+
+#FootSignUpList{
+    border-radius: 5px;
+    border: none !important;
+    padding:10px;
+    color: white;
+background-image: linear-gradient(90deg, #33C6FF 0%, #306BE6 100%);
+font-weight: bold !important;
+          font-family: Proxima Nova, Open Sans, Helvetica Neue, Arial, sans-serif !important;
+  }
+
+
+#FootSignUpList:hover{
+      background-image: linear-gradient(#096BAD, #065E8E);
+      font-family: Proxima Nova, Open Sans, Helvetica Neue, Arial, sans-serif !important;
+      font-weight: bold !important;
+      border: 1px turquoise solid;
+
+}
+
+#GetHelpFootP{
+        font-family: Proxima Nova, Open Sans, Helvetica Neue, Arial, sans-serif !important;
+
+}
+
+#site-subfooter-navigation{
+    display: none !important;
+}
+
+.selection{
+    margin-left:5px !important;
+}
+
+.lsd-skin-left-bar-wrapper{
+    display: none !important;
+}
+
+#lsd_search_desktop_87_listdom-category{
+  padding-left: 5px !important;   
+}
+
+.select2-selection{
+    padding-left: 15px !important;
+}
+
+.select2-selection__placeholder{
+  margin-left: 5px !important;
+}
+
+.listdomer-header{
+    display: none !important;
+}
+
+/* Sign Up Page Styles */
+
+#SUJoinNowLinkBox{
+    margin-top:10px;
+    background: #477be3 !important;
+    width:150px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border:1px navy solid;
+}
+
+#SUJoinNowLinkBox:hover {
+    background: #326DCC !important;
+    cursor: pointer !important;
+    border:1px turquoise solid;
+}
+
+#SUJoinNowLinkBox a{
+    color: white !important;
+}
+
+#SignUpBannerImg{
+   
+ height:500px !important;
+ width: 75% !important;
+ margin-left: auto;
+ margin-right:auto;
+padding-top:25px;
+
+}
+
+#SignUpBannerImg img{
+    border-radius:10px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+#SignUpBannerImgBox {
+    background: #F2EDE7 !important;
+}
+
+#SignUpBannerHead{
+    margin:0px !important;
+    font-weight: bold !important;
+    font-size:18px !important;
+    color: white !important;
+}
+
+#SingUpBtnBox{
+     width:300px !important;
+    padding-left:10px !important;
+     padding-right:10px !important;
+     padding-bottom:10px !important;
+    border-radius: 15px !important;
+    background: #477be3 !important;
+    text-align: center;
+    padding-top:10px !important;
+    border:1px navy solid;
+    
+}
+
+#SingUpBtnBox:hover {
+    background: #326DCC !important;
+    cursor: pointer !important;
+    border:1px turquoise solid;
+}
+
+#SingUpHeaderBox{
+    
+    width:500px;
+     position: absolute;
+     top:600px;
+     left:300px;
+   
+}
+
+#SignUpProposeHead{
+    font-weight: bold;
+    font-size:30px;
+    color: white;
+}
+
+#SUUnderBannerBox{
+    display: flex !important;
+    justify-content: center;
+    padding:35px;
+  
+}
+
+#SearchListBannerBox img{
+    border-radius: 10px !important;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+#SUUnderDetails{
+    width:600px;
+}
+
+#SignUpTeamProsBox{
+   width: 300px;
+   
+}
+
+#SUUnderBannerBox{
+ background: #F2EDE7 !important;    
+}
+
+@media only screen and (max-width: 1500px) {
+        #SignUpBannerImg{
+       
+     height:500px !important;
+     width: 90% !important;
+     margin-left: auto;
+     margin-right:auto;
+    
+    }
+}
+
+@media only screen and (min-width: 1800.99px) {
+    #SingUpHeaderBox{
+    width:500px !important;
+     position: absolute;
+    top:200px;
+    left:500px;
+   
+}
+}
+
+@media only screen and (max-width: 1800px) {
+    #SingUpHeaderBox{
+    width:500px !important;
+     position: absolute;
+    top:400px;
+    left:300px;
+   
+}
+}
+
+@media only screen and (max-width: 1000px) {
+    #SingUpHeaderBox{
+    width:500px !important;
+     position: absolute;
+    top:200px;
+    left:100px;
+   
+}
+
+ #SignUpBannerImg{
+       
+     height:300px !important;
+     width: 90% !important;
+     margin-left: auto;
+     margin-right:auto;
+    
+    }
+
+}
+
+#TherapistTitleAboveSignUp{
+    background-color: white !important
+}
+
+@media only screen and (max-width: 650px) {
+    
+    #SingUpHeaderBox{
+    width: 85% !important;
+    position: absolute;
+    top:150px;
+    left:10px;
+    }
+     #SignUpProposeHead{
+   font-size:25px;
+}
+
+#SignUpBannerImg{
+       
+     height:200px !important;
+     width: 90% !important;
+     margin-left: auto;
+     margin-right:auto;
+    
+    }
+   
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    
+    #SUUnderBannerBox{
+        display: grid !important;
+        grid-template-columns: auto;
+  
+     }
+
+    #SUUnderDetails{
+        width:90%;
+    }
+   
+}
+
+#SUUnderFasterHead{
+    font-size:25px;
+    font-weight: bold;
+}
+
+
+.elementor-element-fea557a{
+    display: none !important;
+}
+
+/* Header Styles */
+
+#TopeLeftTitleBox{
+    width:600px;
+}
+
+@media only screen and (max-width: 1050px) {
+        #TopeLeftTitleBox{
+        width:400px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+        #TopeLeftTitleBox{
+        width:300px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+        #TopeLeftTitleBox{
+        width:200px;
+    }
+}
+
+
+#BottomLeftTitleBox{
+    width: 200px;
+    margin-bottom:15px;
+}
+
+ #SUMemberBenefitsBox {
+     width: 50%;
+     margin-left:auto;
+     margin-right:auto;
+     display: grid;
+	 grid-template-columns: auto auto auto;
+	 column-gap: 40px;
+	 margin-bottom: 25px;
+ }
+ 
+ #SUMemberBenefitsBox li {
+   list-style-type: none;
+   display: flex;
+   margin-top:25px;
+ }
+ 
+ #SUMemberBensHead, #SUMemberBensDescr{
+     text-align:center;
+ }
+ 
+ #SUMemberBensDescr{
+     margin-bottom: 25px;
+ }
+ 
+  #SUMemberBensHead{
+      margin-top:25px;
+      font-weight: bold;
+      font-size:30px;
+      margin-bottom:25px;
+  }
+  
+  @media only screen and (max-width: 1800px) {
+       #SUMemberBenefitsBox {
+         width: 70%;
+   
+      }
+  }
+  
+    @media only screen and (max-width: 1000px) {
+       #SUMemberBenefitsBox {
+     width: 85%;
+   
+       }
+  }
+  
+    @media only screen and (max-width: 700px) {
+        
+       #SUMemberBenefitsBox {
+      display: grid;
+	  grid-template-columns: auto;
+	 
+ }
+ 
+     #SUMemberBenefitsBox li{
+          margin-top:25px;
+      }
+      
+  }
+  
+  #SUMemberBenefitsBox img{
+      width:50px;
+      height:50px;
+  }
+  
+  .site-branding {
+      margin: 0px !important;
+      padding: 0px !important
+  }
+  
+
+.page-template-default .site {
+    background-color: transparent !important;
+}
+
+#post-2133, #post-2131, #post-3606{
+    padding: 10px !important;
+    border-radius: 10px !important;
+    background-color: royalblue !important;
+}
+
+.site-main{
+    padding: 10px !important;
+    border-radius: 10px !important;
+    background-color: lightblue !important;
+}
+
+
+
+.site-main{
+    background-color: transparent !important;
+} 
+
+#wpforms-3506 label, #wpforms-3506-field_10-container legend, #wpforms-3506-field_11-description, #wpforms-3506-field_13-container legend{
+    color: white !important;
+}
+
+#wpforms-3506-field_3-container legend, #wpforms-3506-field_3-description{
+    color: white !important;
+}
+
+.wpforms-page-indicator-steps{
+  display: none !important;
+}
+
+.wpforms-page-indicator{
+    overflow: visible !important;
+}
+
+.wpforms-page-indicator-page-progress{
+    background-color: tan !important;
+}
+
+#SingUpBtnBox a, #SingUpBtnBox a:hover, #UserLoginBtn a, #UserLoginBtn a:hover{
+    color: white !important;
+}
+
+ #UserLoginBtn a{
+     font-size: 15px !important;
+ }
+ 
+ #wpforms-3557-field_1-container label, #wpforms-3557-field_2-container label, #wpforms-3557-field_3 label {
+     color: white !important;
+ }
+ 
+ #post-2133 p{
+     color: white !important;
+ }
+ #post-2133 a{
+     color: salmon !important;
+ }
+ 
+ #post-2133 a:hover{
+     color: red !important;
+ }
+ 
+ .DBMessage{
+     color: blue;
+ }
+ 
+ #ListSearchBtn{
+     padding: 5px !important;
+     border: none;
+     color: white;
+     margin-left:5px;
+ }
+ 
+ #ListSearchBox{
+     border-radius: 5px;
+     border: none;
+     width:500px;
+     padding: 5px;
+ }
+ 
+ #RegisterPaymentPromoBox p{
+     color: white !important
+ }
+ 
+ .p-FieldLabel {
+     color: white !important;
+ }
+ 
+div.wpforms-container-full .wpforms-field-payment-single .wpforms-single-item-price{
+     color: white !important;
+ }
+ 
+ .Label {
+     color: white !important;
+ }
+
+    #wpforms-3506-field_17-container > fieldset > legend{
+        color: white !important;
+    }
+    
+   #RegisterSelectCityBox select{
+    width: 250px !important;
+    margin-top:-25px;
+}
+
+#registerSelectCredsBox .select2-container, 
+#RegisterSelectMentalRoleBox .select2-container {
+ width: 70% !important;
+}
+
+#RegisterSelectCityBox label, 
+#registerSelectCredsBox label, 
+#RegisterSelectMentalRoleBox label {
+  display: none;
+}
+
+#RegisterSelectCityBox p, 
+#registerSelectCredsBox p,
+#RegisterSelectMentalRoleBox p{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px !important;
+    color: white;
+}
+
+#ListSearchBox{
+    border:1px gray solid !important;
+}
+
+.elementor-1094 .elementor-element.elementor-element-0ccb5c4 > .elementor-widget-container{
+    background: transparent !important;
+}
+
+#MenuDropdown{
+    border-top:2px  navy solid;
+    border-bottom:2px  navy solid;
+    border-left: 5px royalblue solid;
+    border-right: 5px blue solid;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: lightblue;
+    position:absolute;
+    display: none;
+      box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); 
+
+}
+
+.FCTArtBox{
+    background-color:white;
+    padding: 50px;
+    border-radius:10px;
+    border-top:10px royalblue solid;
+    border-left:2px royalblue solid;
+    border-right:2px royalblue solid;
+    border-bottom:2px royalblue solid;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); 
+}
+
+.AuthorBylineBox{
+    
+}
+
+.AuthorByline{
+    color:blue;
+    font-weight: bold;
+}
+
+.FCTMediaSnippetBox{
+  background-color: white !important;
+  border-radius: 10px;
+  
+}
+
+[data-id="52a8a0d"]{
+  display: none !important;
+}
+
+#wpforms-form-3588 label{
+  color: white !important;
+}
+
+.InfoFeedbackBox{
+  background-color:lightblue;
+  border-radius:8px;
+  border-left:5px blue solid;
+  padding:10px;
+  border-top: 1px blue solid;
+  border-right:1px blue solid;
+  border-bottom:1px blue solid;
+  margin-top:5px;
+}
+
+.InfoFeedbackBox p{
+  color: blue;
+}
+
+#HomeTableSearchBox{
+ width:500px !important;
+}
+
+#ListSearchBox{
+width:100%;
+  margin-top:5px;
+  background-color:white;
+}
+
+.FindTherapistHeader{
+  
+  background-color:#60c8d4;
+  margin:0px;
+  padding:5px;
+  border-radius: 10px 10px 0 0;
+  border:1px navy solid;
+  
+}
+
+.FindTherapistHeader h5{
+ color:royalblue;
+  font-weight:bold;
+  font-size:20px !important;
+  margin:0px;
+}
+
+.FiltersDropBar{
+  background-color:#B1C3C9;
+  padding:10px;
+  border:1px gray solid;
+  border-radius: 0 0  10px 10px;
+}
+
+.SearchFiltersTop4BtnBox{
+    display:flex;
+    justify-content: center;
+ color:royalblue;
+  margin-left:5px;
+  font-weight:bold;
+  border-radius: 0 0  10px 10px; 
+  background: #acdee6;
+  background: #91dae6;
+  background: linear-gradient(90deg,rgba(145, 218, 230, 1) 0%, rgba(217, 219, 252, 1) 33%, rgba(191, 192, 242, 1) 69%, rgba(186, 245, 245, 1) 100%);
+  padding:10px;
+  border:1px black solid;
+}
+
+.SearchFiltersTop4BtnBox p{
+
+    margin-right:25px;
+}
+
+.SearchFiltersTop4BtnBox p:hover{
+
+    margin-right:25px;
+    text-decoration: underline;
+}
+
+.InfoFeedbackBox p{
+  color: blue;
+}
+
+#FiltersDropBar
+{
+    background-color:#B1C3C9;
+    padding:10px;
+    border:1px gray solid;
+    border-radius: 0 0  10px 10px;
+}
+
+#FiltersDropBar p
+{
+    color:royalblue;
+    margin-left:5px;
+    font-weight:bold;
+    border-radius: 0 0  10px 10px; 
+    background: #acdee6;
+    background: #91dae6;
+    background: linear-gradient(90deg,rgba(145, 218, 230, 1) 0%, rgba(217, 219, 252, 1) 33%, rgba(191, 192, 242, 1) 69%, rgba(186, 245, 245, 1) 100%);
+    padding:10px;
+    border:1px black solid;
+}
+
+#TableSearchBox
+{
+    background-color:#CFE0F9;
+}
+
+#ListSearchBox
+{
+    width:100%;
+    margin-top:5px;
+    background-color:white;
+}
+
+.listingEntry{
+    margin-bottom:2px;
+    background:linear-gradient(90deg,rgba(208, 235, 247, 1) 0%, rgba(187, 216, 252, 1) 50%, rgba(164, 220, 252, 1) 100%);
+    padding:15px;
+    border-radius:5px;
+    margin-top:15px;
+    border:1px gray solid;
+}
+
+.listingEntry h5 {
+    font-size:15px !important;
+    margin-bottom:0px;
+    margin-top:0px;
+    font-weight:bold;
+    background: transparent;
+    padding:5px;
+} 
+
+.GenderEthincitySexualBox{
+    background: transparent;
+padding: 0px;
+}
+
+.listingEntry p {
+background: transparent;
+    padding:5px;
+    color:brown;
+}
+
+.TherapistListingSnippetHeader{
+    background:linear-gradient(90deg,rgba(185, 231, 250, 1) 0%, rgba(135, 189, 255, 1) 50%, rgba(83, 181, 237, 1) 100%);
+    padding:10px;
+}
+
+.TherapistListingSnippetHeader h2{
+    font-size:25px !important;
+    margin:0px;
+    font-weight:bold;
+}
+
+
+.DisplayListSectionH2 {
+    margin-top:60px;
+    padding-left:5px; 
+    font-size:25px !important;
+    margin-bottom:0px;
+    margin-top:0px;
+    font-weight:bold;
+    background: linear-gradient(90deg,rgba(185, 231, 250, 1) 0%, rgba(135, 189, 255, 1) 50%, rgba(83, 181, 237, 1) 100%);
+    color: black; 
+    padding-top:10px; 
+    padding-bottom:10px; 
+  
+}
+
+.DisplayListWorkHoursSectionH2 {
+    padding-left:5px; 
+    font-size:18px !important;
+    margin-bottom:0px;
+    margin-top:5px;
+    font-weight:bold;
+    background-color: lightblue !important;
+    color: black; 
+    padding-top:5px; 
+    padding-bottom:5px; 
+    border: 1px gray dotted;
+}
+
+#ViewListOutput h5 {
+    font-size:15px !important;
+    margin-bottom:0px;
+  
+    font-weight:bold;
+    background-color:transparent;
+    padding:5px;
+}
+    
+    #ViewListOutput p {
+    background: transparent;
+        padding:5px;
+        color:brown;
+    }
+
+    #ViewListOutput{
+        background: linear-gradient(90deg,rgba(208, 235, 247, 1) 0%, rgba(187, 216, 252, 1) 50%, rgba(164, 220, 252, 1) 100%);
+        padding:15px;
+        margin-top:15px;
+        border-radius:10px;
+        border:1px gray solid;
+        font-family: "Poppins", Arial, monospace;
+       font-weight: lighter;
+    }
+
+ #ViewListOutput li {
+    list-style-type: none;
+}
+ 
+ #ViewListOutput ul{
+    margin:0px;
+    padding:0px;
+}
+
+ @media only screen and (min-width: 1001px) {
+								.TwoColGrid {display:grid;grid-template-columns:50% 50%;}
+			            .FourColGrid {display:grid;grid-template-columns:auto auto auto auto;}
+			            .ThreeColGrid {display:grid;grid-template-columns:33.33% 33.33% 33.33%;};
+						    }
+
+						@media only screen and (max-width: 1000.99px) {
+								.TwoColGrid, .FourColGrid, .ThreeColGrid {
+                                    display:grid;
+                                    grid-template-columns:auto !important;
+                                    margin:0px;
+                                }
+								.marginleftfive {
+                                    margin-left:0px;
+                                }
+						    }
+
+                            .Out4x4GridOverflow{
+                               background: transparent;
+                             
+                               
+                            }
+
+
+.FiltersDropBar:hover{
+ cursor: pointer;
+}
+
+#TherapistTitleAboveSignUp{
+font-size:15px;
+  font-weight:bold;
+  color:royalblue;
+  background-color:white;
+  font-style:italic;
+  text-align:center;
+}
+
+.ListingEntrySelector{
+    width: 100% !important;
+  margin-top:5px;
+}
+
+
+.EditProfileIcon{
+  
+  background-color:#F8F8F8;
+  border:1px gray solid;
+  border-radius:5px;
+  padding:5px;
+  margin-left:15px;
+  
+}
+
+.EditProfileIcon:hover{
+   cursor: pointer;
+   background-color:#EAF1FF;
+}
+
+#EditProfilePopup, 
+#EditSuffixPopup, 
+#EditMentalRolePopup, 
+#EditGenderPopup,
+#EditSexualPopup,
+#EditPersonalDescriptionPopup,
+#EditQualificationsPopup,
+#EditDeliveryPopup,
+#EditPhoneNumberPopup,
+#EditWhatsAppPopup,
+#EditEmailPopup,
+#EditBizWebsitePopup,
+#EditLinkedInPopup,
+#EditSessionPricePopup,
+#EditCreditCardsPopup,
+#EditAltPaymentsPopup,
+#EditProvincesPopup,
+#EditCitiesPopup,
+#EditImg01Popup,
+#EditImg02Popup,
+#EditImg03Popup,
+#EditImg04Popup,
+#EditImg05Popup,
+#EditImg06Popup{
+  display: none;
+}
+
+ 
+.EditProfilePopup{
+  margin-top:5px;
+  border: 1px blue solid;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  display: none;
+}
+
+.EditProfilePopup h5{
+  font-weight: bold; 
+  border-bottom: 1px transparent solid !important;
+  background-color: transparent !important;
+}
+
+.EditProfilePopup input, 
+.EditProfilePopup select,
+.EditProfilePopup textarea{
+  border: 1px gray solid !important;
+}
+
+.EditProfilePopupinput,
+.EditProfilePopup select{
+  width: 100% !important;
+  padding: 10px !important;
+  border-radius: 15px !important;
+}
+
+.EditProfilePopup select{
+ width: 300px !important;
+  background-color: white !important;
+}
+
+.EditProfilePopup button{
+  margin-top: 5px;
+}
+
+#UserLoginBtn, #MenuBtn{
+  margin-top:15px;
+
+}
+#MenuBtn{
+  margin-left: 5px;
+}
+#MediaBtn, #UserLogoutBtn{
+ margin-left: 5px;
+  margin-top: 15px;
+}
+
+#MainNavBox{
+ display: flex !important;
+  float: right !important;
+}
+
+		#SearchFiltersBox{
+						background: #bdbdbd;background: linear-gradient(90deg,rgba(189, 189, 189, 1) 0%, rgba(207, 207, 207, 1) 100%);border: 1px solid gray; padding: 15px; display: none;
+					}
+					#FiltersInsideGirdleBox{
+						width:500px;margin-left:auto;margin-right:auto;
+					}
+					@media only screen and (max-width: 766px) {
+							#FiltersInsideGirdleBox{
+							width:85%;margin-left:auto;margin-right:auto;
+						}
+					}
+
+        .filterBoxSet{
+            
+            padding-left:5px;
+            background-image: linear-gradient(#DAE9F7, transparent);} 
+            
+            #SearchFiltersBox h5{
+                font-size:15px;
+                font-weight:bold;
+                text-decoration:underline;
+                margin:0px;
+            } 
+            
+            
+            #SearchFiltersBox select{
+                margin-top:-15px;
+                padding:0px;
+                background-color:transparent !important;
+            } 
+            
+            .select2-container--default .select2-selection--single{
+                margin:0px;
+                padding:0px;
+                background-color: transparent !important;
+            } 
+            
+            #SearchFiltersBox .selection span {
+                margin-top:-15px !important;
+            } 
+            
+            #SearchFiltersBox {
+                display: none;
+                height:500px; 
+                overflow:scroll;
+                scrollbar-color: silver #d5dde3;
+            
+            }#FiltersDropBar:hover {
+                cursor:pointer;
+                border:1px navy solid;}
+                
+                #Filters_GendersSexualityEthnicity_3ColBox, #Filters_MHRoleQualsSpecials_3ColBox, #Filters_ClientAgeSessionSetDelivMode_3Col_Box {
+                    display:grid;
+                    grid-template-columns:auto auto auto;
+                    margin-bottom:1px;
+                }
+                
+                #Filters_ProvincesCites_2Col_Box, 
+                #Filters_WorkDaysHours_2Col_Box {
+                    display:grid;
+                    grid-template-columns:auto auto;
+                    margin-bottom:1px;
+                }
+                
+                .marginleftfive {margin-left:1px;}
+                
+                @media only screen and (max-width: 1000px) {
+                    
+                    #Filters_GendersSexualityEthnicity_3ColBox, 
+                    #Filters_MHRoleQualsSpecials_3ColBox,
+                    #Filters_ClientAgeSessionSetDelivMode_3Col_Box, 
+                    #Filters_ProvincesCites_2Col_Box, 
+                    #Filters_WorkDaysHours_2Col_Box 
+                    {
+                        display:grid;
+                        grid-template-columns:auto;
+                        margin:0px;
+                    }
+                    
+                    .marginleftfive {
+                        margin-left:0px;
+                    }
+                }
+
+.DisplayOutputLink{
+  color: dodgerblue !important;
+}
+
+.DisplayOutputLink:hover {
+  color: navy !important;
+}
+
+.custom-logo{
+
+ display: none !important;
+
+}
+
+.OfficeImgBox{
+  	background-color:silver;
+  padding:10px;
+  border:1px black solid;			
+
+}
+
+.wpforms-field-description{
+
+    color: silver !important;
+}
+
+#wpforms-form-3557{
+    background-color: royalblue;
+    padding:50px;
+    border-radius: 5px;
+}
+
+
+#RegisterSelectCityBox > span > span > span {
+        border-radius: 5px !important;
+    padding: 5px !important;
+    background-color: white !important;
+}
+
+#registerSelectCredsBox > span > span > span{
+  border-radius: 5px !important;
+    padding: 5px !important;
+    background-color: white !important;
+}
+
+#RegisterSelectMentalRoleBox > span > span > span{
+  border-radius: 5px !important;
+    padding: 5px !important;
+    background-color: white !important;
+}
+
+#select2-wpforms-3506-field_13-country-container{
+  border-radius: 5px !important;
+    padding: 5px !important;
+    background-color: white !important;
+}
+
+#select2-wpforms-3506-field_20-container{
+     border-radius: 5px !important;
+    padding: 5px !important;
+    background-color: white !important;
+}
+
+#select2-wpforms-3588-field_93-container{
+    margin-top: -35px !important; 
+     border-radius: 5px !important;
+    padding:7.5px !important;
+    background-color: white !important;
+}
+
+.wpforms-field-label{
+    color: white !important;
+}
+
+ button[type="submit"] {
+    background-color: navy !important;
+      /* Your styles here */
+    }
+
+    input[type=submit]{
+        background-color: navy !important;
+    }
+
+    .lsd-form-row div[class*=lsd-col-] .lsd-form-submit, .lsd-form-row div[class*=lsd-col-] button[type=submit], .lsd-form-row div[class*=lsd-col-] input[type=submit], .lsd-listing-googlemap .lsd-direction form .lsd-form-submit, .lsd-listing-googlemap .lsd-direction form button[type=submit], .lsd-listing-googlemap .lsd-direction form input[type=submit], .lsd-row div[class*=lsd-col-] .lsd-form-submit, .lsd-row div[class*=lsd-col-] button[type=submit], .lsd-row div[class*=lsd-col-] input[type=submit], .lsd-single-page-wrapper .lsd-single-abuse-box .lsd-report-abuse-form-wrapper .lsd-report-abuse-form-row .lsd-form-submit, .lsd-single-page-wrapper .lsd-single-abuse-box .lsd-report-abuse-form-wrapper .lsd-report-abuse-form-row button[type=submit], .lsd-single-page-wrapper .lsd-single-abuse-box .lsd-report-abuse-form-wrapper .lsd-report-abuse-form-row input[type=submit], .lsd-single-page-wrapper .lsd-single-owner-box .lsd-owner-contact-form-wrapper .lsd-owner-contact-form-row .lsd-form-submit, .lsd-single-page-wrapper .lsd-single-owner-box .lsd-owner-contact-form-wrapper .lsd-owner-contact-form-row button[type=submit], .lsd-single-page-wrapper .lsd-single-owner-box .lsd-owner-contact-form-wrapper .lsd-owner-contact-form-row input[type=submit], form .lsd-form-submit, form button[type=submit], form input[type=submit], form.fed_form_post .form-group .lsd-form-submit, form.fed_form_post .form-group button[type=submit], form.fed_form_post .form-group input[type=submit]{
+         font-family: Proxima Nova, Open Sans, Helvetica Neue, Arial, sans-serif !important;
+      font-weight: bold !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    border: none !important;
+    color: white !important;
+    font-size: 15px !important;
+    margin: 0px;
+    background-image: linear-gradient(90deg, #33C6FF 0%, #306BE6 100%);
+    }
+
+.FCTVerificationSection{
+  display: none !important;
+}
+
+.EditProfPicturePopup{
+  display: none;
+}
+
+.ProfilePictureBox{
+ width: 200px; 
+  height: 200px;
+  background-color: #E8EFEE;
+  border: 1px olive solid;
+  border-radius: 5px;
+  padding: 10px;
+  filter: drop-shadow(10px 10px 5px rgba(7, 98, 165, 0.5));
+}
+
+.OutProfPictureFormBox{
+
+    background: #b9e7fa;
+background: linear-gradient(90deg,rgba(185, 231, 250, 1) 0%, rgba(135, 189, 255, 1) 50%, rgba(83, 181, 237, 1) 100%);
+  padding: 25px;
+  
+}
+
+.SnippetSearchProfPictureBox{
+ width: 200px; 
+  height: 200px;
+  background-color: #E8EFEE;
+  border: 1px olive solid;
+  border-radius: 5px;
+  padding: 10px;
+  filter: drop-shadow(10px 10px 5px rgba(7, 98, 165, 0.5));
+}
+
+.SnippetSearchParentProfPictureBox{
+ background: transparent;
+    padding: 25px;
+
+ 
+}
+
+
+.ProfileTitleSetBox-Col02{
+
+    background: transparent;
+}
+
+.listingEntry{
+  font-family: "Poppins", Arial, monospace;
+    font-weight: lighter;
+}
+
+.DeliveryModeSessionSet{
+ background: transparent;
+}
+
+.OfficeImagesBox{
+        background: transparent;
+}
+
+.EditIMGBoxStyles{
+    border-left: 1px gray solid;
+    border-right:1px gray solid;
+    border-bottom:1px gray solid;
+    border-radius: 5px;
+    padding:25px;
+background: #e3e3e3;
+background: linear-gradient(90deg,rgba(227, 227, 227, 1) 0%, rgba(194, 194, 194, 1) 50%, rgba(186, 186, 186, 1) 100%);
+filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+
+@keyframes FiltersPopupAnimation {
+  0%   {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.SearchFiltersPopupBox{
+  display: none;
+  border:5px lightblue solid;
+  padding: 50px;
+  height: 100vh;
+  width: 102%;
+  position: absolute !important;
+  top: 0px !important;
+  left: 0px !important;
+  background: #5fd4be;
+background: linear-gradient(90deg,rgba(95, 212, 190, 1) 0%, rgba(132, 240, 177, 1) 50%, rgba(83, 227, 237, 1) 100%);
+  z-index: 9999; 
+    animation-name: FiltersPopupAnimation;
+  animation-duration: 2s;
+}
+
+.FiltersPopupInsideMenu{
+ width: 200px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px;
+}
+
+.FiltersPopupInsideMenu p{
+        font-family: Proxima Nova, Open Sans, Helvetica Neue, Arial, sans-serif !important;
+
+padding: 10px !important;
+    border-radius: 5px !important;
+    border: none !important;
+ color: white;
+ background-image: linear-gradient(90deg, #33C6FF 0%, #306BE6 100%);
+  font-weight:bold;
+  font-size: 15px !important;
+  margin-bottom:5px !important;
+}
+
+.FiltersPopupInsideMenu p:hover{
+     background-image: linear-gradient(#096BAD, #065E8E) !important;
+    cursor: pointer;
+}
+
+.SearchFiltersCloseIconBox{
+    
+    border-radius: 5px;
+    padding:5px;
+    width:30px;
+    display: flex;
+     margin-left: auto;
+  
+}
+
+.SearchFiltersCloseIconBox:hover{
+    background-color: black;
+    border:1px black solid;
+    border-radius: 5px;
+
+}
+
+#SearchFiltersConfigInsideBoxPopup{  
+  width:200px;
+  height:490px;
+  border-radius: 5px;
+  top:135px;
+    background: #4c9b2a;
+background: linear-gradient(90deg,rgba(76, 155, 42, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(83, 237, 181, 1) 100%);
+    position:absolute;
+    display: none;
+  z-index: 9999; 
+  border:1px silver solid;
+   animation-name: FiltersPopupAnimation;
+  animation-duration: 1s;
+}
+
+.elementor-kit-2304 h5 {
+  font-size: normal !important;
+font-weight: bold !important;
+}
+
+.filterBoxSet h5{
+  color: royalblue !important;
+font-size: 18px !important;
+  font-weight:bold !important;
+}
+
+.filterBoxSet label{
+ color: royalblue !important;
+  font-weight: bold;
+}
+
+.EntrySnippetLayoutBox{
+
+    display:grid;
+    grid-template-columns: 30% 70%;
+}
+
+
+.EntrySnippetDescriptionOverBox{
+    border:none;
+    overflow:hidden;
+}
+
+.GlobalFilterSubitBtn{
+background: #2a9b4a;
+background: linear-gradient(90deg,rgba(42, 155, 74, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(83, 170, 237, 1) 100%) !important;
+}
+
+
+.filterBoxSet select{
+   display: flex;
+  justify-content:center;
+  width: 175px !important;
+ background-color: lightblue !important;
+  border: 1px gray solid !important;
+ border-radius: 5px;
+  padding:15px !important;
+  color: royalblue !important;
+}
+
+#FilterQualificationsBoxOverflow,
+#FilterTreatmentsBoxOverflow,
+#FilterProvincesBoxOverflow{
+  height: 300px;
+  overflow: scroll;
+}
+
+.ListingEntrySearchParentProfPictureBox{
+    
+   padding:25px;
+  background: linear-gradient(90deg,rgba(185, 231, 250, 1) 0%, rgba(135, 189, 255, 1) 50%, rgba(83, 181, 237, 1) 100%);
+}
